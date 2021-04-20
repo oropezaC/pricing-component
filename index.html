@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <div class="title">
+      <h2 class="">Simple, traffic-based pricing</h2>
+      <p class="title_p"> Sign-up for our 30-day trial. No credit card required.</p>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div class="card-header-element">
+          <span id="views">100K Pageviews</span>
+        </div>
+        <div class="card-header-element">
+          <span id="price"> $16.00</span>
+          <span id="type_bill">/Month</span>
+        </div>
+        <div class="card-header-element">
+          <div class="card-range-element">
+            <input type="range" name="range" id="range_pricing" min="0" max="4">
+          </div>
+        </div>
+      </div>
+      <div class="card-toggle">
+        <div class="card-toggle-element">
+          <label class="label-toggle"> Monthly billing </label>
+          <label class="toggle">
+            <input type="checkbox" id="toggle">
+            <span class="slider round"></span>
+          </label>
+          <label class="label-toggle"> Year billing </label>
+          <span class="label-toggle-content-discount">
+            <label class="label-toggle-discount" id="discount"> 25% discount </label>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="card-bottom">
+      <div class="card-bottom-content">
+        <div class="card-bottom-element">
+          <ul>
+            <li>Unlimited websites</li>
+            <li>100% data ownership</li>
+            <li>Email reports</li>
+          </ul>  
+        </div>
+        <div class="card-bottom-element">
+          <button>Start my trial</button>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Oropeza </a>.
+  </div> -->
+  <script src="./script.js"></script>
+</body>
+
+</html>
